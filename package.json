@@ -1,15 +1,19 @@
 {
-  "name": "djs09-vite",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "Scrim-s01m4gs",
+  "description": "https://scrimba.com/learn-typescript-c0l/~0c",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "watch": "webpack -w",
+    "build": "webpack",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "webpack": "^2.0"
   },
   "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^6.1.0"
+    "ts-loader": "*",
+    "typescript": "*"
+  },
+  {
+    "type": "module"
   }
 }
